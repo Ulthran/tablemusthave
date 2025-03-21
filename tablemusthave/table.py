@@ -5,6 +5,8 @@ default_null_values = frozenset(
     (
         "",
         "0000-00-00",
+        "00:00:00",
+        "NULL",
         "Null",
         "null",
         "NA",
@@ -13,6 +15,8 @@ default_null_values = frozenset(
         "n/a",
         "None",
         "none",
+        "nan",
+        "NaN",
     )
 )
 
